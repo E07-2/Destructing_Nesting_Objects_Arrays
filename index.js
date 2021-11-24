@@ -1,15 +1,15 @@
 // Destructuring
 
-// Destructive assignment for Arrays:
+// Destructuring assignment for Arrays:
 const IDlist = [123,124,125];
 let [ID1,ID2,ID3] = IDlistL; 
 
-// Destructive assignment for Arrays with rest:
+// Destructuring assignment for Arrays with rest:
 const products = ["phone","notebook","shoes","coat","pot","knife"];
 let [product1, product2, product3, ...restOfProducts] = products;
 
 
-// Destructive assignment of objects:
+// Destructuring assignment of objects:
 const productInfo = {
   id: 123,
   name: "mouse",
@@ -19,7 +19,7 @@ const productInfo = {
 
 let {productName, productID} = productInfo;
 
-// Destructive assignment of objects:
+// Destructuring assignment of objects:
 let {productName, ...restOfProperties} = productInfo;
 
 
@@ -74,22 +74,4 @@ console.log(userList[1].lname) // Zaun
 console.log(userList[2].location.city) //Oslo
 console.log(userList[1].skills[2]) //sports
 console.log(userList[3].location) //{city: "San Diego", country: "United States"}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
